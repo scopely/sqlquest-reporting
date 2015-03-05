@@ -22,7 +22,7 @@ module.exports =
 
     adventure: ->
       @report "ses",
-        from: "anthony@scopely.com"
+        from: "person@people.org"
         to: @opts._
         subject: "Omg it works"
         html: (builder) =>
