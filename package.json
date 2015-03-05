@@ -1,0 +1,23 @@
+{
+  "name": "sqlquest-reporting",
+  "version": "0.0.0",
+  "description": "Email reporting plugin for sqlquest",
+  "main": "src/reporter.coffee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scopely/sqlquest-reporting"
+  },
+  "license": "Apache-2.0",
+  "author": "Scopely",
+  "bugs": {
+    "url": "https://github.com/scopely/sqlquest-reporting/issues"
+  },
+  "homepage": "https://github.com/scopely/sqlquest-reporting",
+  "dependencies": {
+    "aws-sdk": "^2.1.14",
+    "ent": "^2.2.0",
+    "lodash": "^3.3.1",
+    "moment": "^2.9.0",
+    "sync": "0.2.3"
+  }
+}
