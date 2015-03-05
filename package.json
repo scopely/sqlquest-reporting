@@ -1,6 +1,6 @@
 {
   "name": "sqlquest-reporting",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Email reporting plugin for sqlquest",
   "main": "src/reporter.coffee",
   "repository": {
@@ -16,6 +16,8 @@
   "dependencies": {
     "aws-sdk": "^2.1.14",
     "ent": "^2.2.0",
+    "grunt": "^0.4.5",
+    "grunt-release": "^0.11.0",
     "lodash": "^3.3.1",
     "moment": "^2.9.0",
     "sync": "0.2.3"
